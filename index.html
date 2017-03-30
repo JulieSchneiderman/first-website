@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="./css/main.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Jim+Nightshade|Nova+Oval" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed" rel="stylesheet">
   </head>
+
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div class="marble">
       <!-- 1. NAVIGATION BAR -->
@@ -35,7 +37,8 @@
             <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
             <li><a class="page-scroll" href="#about">About</a></li>
             <li><a class="page-scroll" href="#content">Blog</a></li>
-            <li><a class="page-scroll" href="#contact">Resume (Coming Soon)</a></li>
+            <li><a class="page-scroll" href="#slideshow">Photography</a></li>
+            <li><a class="page-scroll" href="#Resume">Resume (Coming Soon)</a></li>
           </ul>
         </div> <!-- End collapse navbar-collapse navbar-menu-collapse -->
       </div> <!-- End container -->
@@ -49,28 +52,28 @@
     </div>
     
 <!-- ABOUT SECTION -->
-    <section id="about" class="about-section">
+    <section id="about" class="about-section" style="background-color: #F0F5F9">
       <div class="container">
         <div class="col-md-12 text-center">
           <div class="row">
-            <h1>About Julie</h1>
+            <h1 class="about-header">About Julie</h1>
           </div> <!-- End row -->
 
           <div class="row aboutInfo">
-            <div class="col-sm-6 col-md-12-left">
+            <div class="col-sm-6 col-md-12-left" style="padding-left: 60px">
               <img src="./img/julie_cropped1.jpg" class="img-responsive" alt="julie"  id="julie">
             </div>
             <div class="col-sm-6 col-md-12-right">
-              <div class="aboutI">
-                <p class="about-text">My name is Julie Schneiderman and I am a second year year computing undergraduate student at Queen's University, specializing in Cognitive Science. I have been focussing my time on programming, web development and design.</p><p class="about-text">I have recently been hired at the tech startup Connectiv8 as an IT/Software Developer. Over the next couple of months we hope to have a working web application. </p><p class="about-text">Beyond tech, I'm interested in the world of social psychology and philosophy.</p>
+              <div class="aboutI about-text">
+                <p>My name is Julie Schneiderman and I am a second year computing undergraduate student at Queen's University, specializing in Cognitive Science. I have been focussing my time on programming, web development and design.</p><p>I have recently been hired at the tech startup Connectiv8 as an IT/Software Developer. Over the next couple of months we hope to have a working web application. </p><p>Beyond tech, I'm interested in the world of social psychology and philosophy.</p>
 
                 <ul class="list-inline social-buttons">
                   <!-- LinkedIn -->
-                  <li id="linkedin" data-toggle="tooltip" title="LinkedIn"><a href="https://www.linkedin.com/in/julie-schneiderman/" target="_blank"><span class="linkedin social-icons fa-stack fa-2x"><i class="fa fa-linkedin fa-stack-1.8x"></i></span></a></li>
+                  <li id="linkedin" data-toggle="tooltip" title="LinkedIn"><a href="https://www.linkedin.com/in/julie-schneiderman/" target="_blank"><span class="linkedin social-icons fa-stack fa-2x"><i class="fa fa-linkedin fa-stack-2.5x"></i></span></a></li>
                   <!-- Email -->
-                  <li id="mail" data-toggle="tooltip" title="Email"><a href="mailto:schneiderman.julie@gmail.com" target="_top" class="page-scroll"><span class="email social-icons fa-stack fa-2x"><i class="fa fa-envelope fa-stack-1.8x"></i></span></a></li>
+                  <li id="mail" data-toggle="tooltip" title="Email"><a href="mailto:schneiderman.julie@gmail.com" target="_top" class="page-scroll"><span class="email social-icons fa-stack fa-2x"><i class="fa fa-envelope fa-stack-2.5x"></i></span></a></li>
                   <!-- Github -->
-                  <li id="github" data-toggle="tooltip" title="Github"><a href="https://github.com/JulieSchneiderman" target="_blank"><span class="github social-icons fa-stack fa-2x"><i class="fa fa-github fa-stack-1.8x"></i></span></a></li> <!-- Github -->
+                  <li id="github" data-toggle="tooltip" title="Github"><a href="https://github.com/JulieSchneiderman" target="_blank"><span class="github social-icons fa-stack fa-2x"><i class="fa fa-github fa-stack-2.5x"></i></span></a></li> <!-- Github -->
                 </ul>
               </div> <!-- End aboutI -->
             </div> <!-- End column -->
@@ -85,21 +88,22 @@
     <section id="content">
       <div class="container-fluid">
             <!-- Blog Entries -->
-        <div class="row posts"> 
-          <div class="col-lg-8 shadow">
+        <div class="row posts">
+
+          <div class="col-sm-7 col-md-7">
           <!-- Blog entry 1 
           box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
           -->
-            <div class="blog-entries"> <!-- new post div here -->
+            <div class="blog-entries shadow"> <!-- new post div here -->
               <iframe class="blog-media" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fjasonlsilva%2Fvideos%2F1822866031311007%2F&show_text=0&width=560" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
               <div class="container-fluid">
-                <h3><b>JASON SILVA</b></h3>
-                <h5>Origins: The Journey of Humankind - a new National Geographic series <br> March 26, 2017</h5>
+                <h3 style="color: #EE0E51"><b>JASON SILVA</b></h3>
+                <h5 class="blog-description">Origins: The Journey of Humankind - a new National Geographic series <br> March 26, 2017</h5>
               </div>
               <div class="container-fluid">
                   <p>A few years ago I stumbled upon Jason Silva back when the National Geographic show <em>Brain Games </em> had just come out. I had never really understood the power of my brain or better yet, how often it plays tricks on me. Jason speaks with such enthusiasm that I couldn’t help but binge watch his show and thus, my interest into the world of cognitive science began. I strongly encourage everyone to give one of these episodes a try. The show is designed in such a way that you don’t even realize you’re learning, and trust me you’ll be shocked at how many times your eyes widen and you mouth “wooaahhh.” And don’t worry; it's available on Netflix. </p>
 
-                  <p>Anyway, I’ve been following Jason’s career for some time now. Watching his vlogs on a regular basis and reading through the articles he posts on his Facebook page. Luckily for me, he’s come out with a new show for me to secretly obsess over. It’s called <em>“Origin: The Journey of Humankind.”</em> It’s the story of how the world became modern and the path we’re taking into the future.</p>
+                  <p>Anyway, I’ve been following Jason’s career for some time now. Watching his vlogs on a regular basis and reading through the articles he posts on his Facebook page. Luckily for me, he’s come out with a new show for me to secretly obsess over. It’s called <em>“Origin: The Journey of Humankind. ”</em> It’s the story of how the world became modern and the path we’re taking into the future.</p>
 
                   <p>The video above is the episode I’m most looking forward too. </p>
 
@@ -114,20 +118,22 @@
               </div>-->
               </div>
             </div>
-            <hr>
+            <br>
+            <br>
           <!-- Entry #2 -->
-            <div class="blog-entries"> <!-- new post div here -->
+            <div class="blog-entries shadow"> <!-- new post div here -->
               <img class="img-responsive center-block" src="./img/IMG_1623.jpg" alt="p1" id="p1" style="padding-top: 30px">
               <div class="container-fluid">
                 <h3><b>PURPOSE</b></h3>
                 <h5>Welcome to the life of J, March 27, 2017</h5>
               </div>
               <div class="container-fluid">
-                  <p>This is a learning experience so bare with me.</p><p>I've learned a lot about computing this year and it's time to let that new found knowledge speak for itself. </p><p>The idea of this page is to learn new skills and express myself here. To post current and past projects and track my progress live for the world to see. So that maybe in 20 years when I'm (hopefully) running the world, I'll be able to look back and see how far I've come, kind of like a virtual scrapbook.I'm really hoping for this website to push me to continue to work on my own projects and not let schoolwork drag me down and break my spirits. My grades don't define me, nor do anyone else's for that matter. But my passion does. </p> <h5 class="J"> - J </h5> 
+                  <p>This is a learning experience so bare with me.</p><p>I've learned a lot about computing this year and it's time to let that new found knowledge speak for itself. </p><p>The idea of this page is to learn new skills and express myself here. To post current and past projects and track my progress live for the world to see. So that maybe in 20 years when I'm (hopefully) running the world, I'll be able to look back and see how far I've come, kind of like a virtual scrapbook. I'm really hoping for this website to push me to continue to work on my own projects and not let schoolwork drag me down and break my spirits. My grades don't define me, nor do anyone else's for that matter. But my passion does. </p> <h5 class="J"> - J </h5> 
               </div>
             </div>
           </div> <!-- blog entries -->
 
+          <div class="col-md-1"></div>
           <!--My Links Section -->
           <div class="col-lg-4 side-shadow"> 
             <div class="favPosts">
@@ -138,11 +144,14 @@
                 <li><i class="fa fa-newspaper-o fa-2x"></i>
                   <span class="font-large">
                     <a href="http://news.nationalgeographic.com/2017/03/human-heart-spinach-leaf-medicine-science/?utm_source=Facebook&utm_medium=Social&utm_content=link_fb20170325news-spinachheart&utm_campaign=Content&sf65838089=1" target="_blank">Spinach Leaf Transformed Into Beating Human Heart Tissue</a>
+
                   </span>
                 </li>
-                <li><i class="fa fa-youtube fa-2x"></i>
-                  <span class="font-large">TITLE 2</span><br>
-                  <span>Description</span>
+                <li><i class="fa fa-music fa-2x"></i>
+                  <span class="font-large">
+                    <a href="http://time.com/4712481/best-new-music-this-week/?xid=time_socialflow_facebook">5 Songs You Need to Listen to This Week</a>
+                  </span><br>
+                  <span>Agreed.</span>
                 </li>
               </ul>
             </div>
@@ -160,13 +169,13 @@
     <br>
 
       <div class="slideshow-container">
-        <div class="mySlides fade">
+        <div class="mySlides">
           <div class="numbertext">1 / 3</div>
           <img src="./img/IMG_1190.jpg" class="slideshow-photos" style="width: 100%">
           <div class="text">Caption Text</div>
         </div>
 
-        <div class="mySlides fade">
+        <div class="mySlides">
           <div class="numbertext">2 / 3</div>
           <img src="./img/IMG_3860.jpg" class="slideshow-photos" style="width: 100%">
           <div class="text">Caption Text</div>

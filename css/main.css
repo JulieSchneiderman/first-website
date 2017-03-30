@@ -1,40 +1,56 @@
+body {
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
 #title {
 	font-size: 45px;
-	color: #112D4E;
+	color: #EE0E51;
 	text-align: center;
-	padding-top: 250px;
+	padding-top: 150px;
 }
 
 #sub-title {
 	font-size: 30px;
-	color: #112D4E;
+	color: #EE0E51;
 	text-align: center;
 }
 
 .posts {
 	text-align: center;
-	color: #112D4E;
+	color: #363540;
 	padding-top: 50px;
+	background-color: white;
+	padding-bottom: 100px;
 }
 
 .marble {
 	background-image: url("../img/marble.png");
 	background-repeat: no-repeat;
 	background-color: black;
-	max-width: 1500px;
+	background-size: cover;
+	max-width: auto;
 	height: 100vh;
 }
 
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.about-header {
+	color: #EE0E51;
+	font-size: 40px;
+}
 
 .about-section {
-	color: #112D4E;
-	background: #DBE2EF;
-	padding-top: 80px;
-	padding-bottom: 80px;
+	color: #363540;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .about-text {
-	padding-top: 20px;
-	color: #3F72AF;
+	padding-top: 85px;
+	color: #363540;
+	font-size: 14px;
 }
 
 hr#aboot {
@@ -48,26 +64,40 @@ hr#aboot {
 }
 
 #julie {
-	height: 70%; 
-	width: 70%; 
+	height: 65%; 
+	width: 65%; 
+	padding-top: 25px;
 	padding-bottom: 40px;
 	border-radius: 50%;
 }
 
+.social-icons {
+	color: #EE0E51;
+}
+
+.fadeIn{
+	opacity: 1;
+	transition: opacity 3s ease;
+}
+
+
 .shadow {
-	box-shadow: 10px 10px 10px #112D4E !important;
+	box-shadow: 10px 10px 10px 10px grey !important;
 }
 
 .side-shadow {
-	box-shadow: 20px 10px 10px #DBE2EF;
+	box-shadow: 20px 10px 10px 10px grey;
+}
+
+.blog-description {
+	color: #EE0E51;
 }
 
 .blog-entries {
-	color: navy;
-	font-size: 14;
-	background-color: #DBE2EF;
-	border: 4px solid #112D4E;
+	color: #363540;
+	font-size: 14px;
 	margin-left: 20px;
+	padding-right: 10px;
 }
 
 .box-container {
@@ -97,11 +127,10 @@ hr#aboot {
 	border: 4px solid #DBE2EF;
 	padding: 8px 24px!important;
 	color: #112D4E;
-	background-color: #DBE2EF;
 }
 
 .favPosts-links {
-	color: black;
+	color: #363540;
 }
 
 ul,li {
@@ -205,28 +234,11 @@ ul,li {
   background-color: #717171;
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-.slideshow-photos {
-	height: 50%;
-	width: 50%;
-}
 
 
 
