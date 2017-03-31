@@ -2,7 +2,7 @@ body {
 	font-family: 'Fira Sans Condensed', sans-serif;
 }
 
-h3,h5 {
+h2,h3,h5 {
 	color: #EE0E51;
 }
 
@@ -74,6 +74,9 @@ h3,h5 {
 	padding-left: 20px;
 }
 
+.addspace {
+	padding-bottom: 10px;
+}
 #julie {
 	height: 70%; 
 	width: 70%; 
@@ -97,7 +100,7 @@ h3,h5 {
 }
 
 .side-shadow {
-	box-shadow: 20px 10px 10px 0px rgba(0,0,0,0.1);
+	box-shadow: 20px 10px 10px 7px rgba(0,0,0,0.1);
 }
 
 .blog-description {
@@ -116,9 +119,7 @@ h3,h5 {
 }
 
 .col-lg-5.side-shadow {
-	padding-right: 30px;
-	margin: -1526px 0 0px 762px
-	;
+	margin: -1526px 0 0px 760px;
 }
 
 .links {
@@ -175,7 +176,16 @@ ul,li {
 	color: #363540;
 }
 
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #F0F5F9;
+}
 
+hr {
+	border-width: 3px;
+	color: #EE0E51;
+}
 /* slideshow
 * {
 	box-sizing: border-box;
