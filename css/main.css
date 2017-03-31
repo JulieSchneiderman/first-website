@@ -62,24 +62,22 @@ h3,h5 {
 
 .about-header {
 	color: #EE0E51;
-	font-size: 40px;
+	font-size: 45px;
 }
 
 .about-section {
 	color: #363540;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 35px;
 }
 .about-text {
-	padding-top: 85px;
+	padding-top: 60px;
 	color: #363540;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 hr#aboot {
-	border-top: 3px solid #112D4E;
-  	margin-top: 1.5em;
-  	margin-bottom: 1.5em;
+	border: 8px solid #EE0E51;
 }
 
 .aboutI {
@@ -87,8 +85,8 @@ hr#aboot {
 }
 
 #julie {
-	height: 65%; 
-	width: 65%; 
+	height: 70%; 
+	width: 70%; 
 	padding-top: 25px;
 	padding-bottom: 40px;
 	border-radius: 50%;
@@ -96,6 +94,7 @@ hr#aboot {
 
 .social-icons {
 	color: #EE0E51;
+	padding-left: 20px;
 }
 
 .fadeIn{
