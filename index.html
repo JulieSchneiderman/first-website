@@ -13,33 +13,16 @@
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed" rel="stylesheet">
   </head>
 
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <body data-target=".navbar" data-offset="50">
     <div class="marble">
       <!-- 1. NAVIGATION BAR -->
-    <nav class="navbar navbar-default navbar" role="navigation">
+    <nav class="navbar navbar-default" role="navigation">
       <div class="container">
-        <div class="navbar-header page-scroll">
-          <!--Navbar Logo Icon - taken away until logo is made 
-          <a class="navbar-brand" href="#">
-          <img id="logo" alt="logo" src="./img/logo.png" width="50" height="50">
-          </a> -->
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menu-collapse">
-            <span class="sr-only">Toggle Navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-
-        </div> <!-- End navbar-header page-scroll -->
-
-        <div class="collapse navbar-collapse navbar-menu-collapse">
-          <ul class="nav navbar-nav navbar-center">
-            <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
-            <li><a class="page-scroll" href="#about">About</a></li>
-            <li><a class="page-scroll" href="#content">Blog</a></li>
-            <li><a class="page-scroll" href="#slideshow">Photography</a></li>
-            <li><a class="page-scroll" href="#Resume">Resume (Coming Soon)</a></li>
-          </ul>
+        <div class="navbar-collapse navbar-menu-collapse navbar-center">
+            <a href="#about" class="btn btn-md" role="button">ABOUT</a>
+            <a href="#content" class="btn btn-md" role="button">BLOG</a>
+            <a href="#slideshow" class="btn btn-md" role="button">SLIDESHOW</a>
+            <a href="#" class="btn btn-md" role="button">RESUME (COMING SOON)</a>
         </div> <!-- End collapse navbar-collapse navbar-menu-collapse -->
       </div> <!-- End container -->
     </nav>
@@ -96,9 +79,9 @@
           box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
           -->
             <div class="blog-entries shadow"> <!-- new post div here -->
-              <iframe class="blog-media" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fjasonlsilva%2Fvideos%2F1822866031311007%2F&show_text=0&width=560" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+              <iframe class="blog-media img-responsive" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fjasonlsilva%2Fvideos%2F1822866031311007%2F&show_text=0&width=560" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
               <div class="container-fluid">
-                <h3 style="color: #EE0E51"><b>JASON SILVA</b></h3>
+                <h3><b>JASON SILVA</b></h3>
                 <h5 class="blog-description">Origins: The Journey of Humankind - a new National Geographic series <br> March 26, 2017</h5>
               </div>
               <div class="container-fluid">
@@ -133,10 +116,8 @@
               </div>
             </div>
           </div> <!-- blog entries -->
-
-          <div class="col-md-1"></div>
           <!--My Links Section -->
-          <div class="col-lg-4 side-shadow"> 
+          <div class="col-lg-5 side-shadow container-fluid">
             <div class="favPosts">
               <div class="favPost-Header">
                 <h3><b>THIS CAUGHT MY EYE</b></h3>
@@ -164,27 +145,22 @@
 
 
     <section id="slideshow"> 
-    <h1>HELLOOOOOOOO</h1>
-    <br>
-    <br>
-    <br>
-
       <div class="slideshow-container">
         <div class="mySlides">
           <div class="numbertext">1 / 3</div>
-          <img src="./img/IMG_1190.jpg" class="slideshow-photos" style="width: 100%">
+          <img src="./img/IMG_1190.jpg" class="slideshow-photos img-responsive" style="width: 100%">
           <div class="text">Caption Text</div>
         </div>
 
         <div class="mySlides">
           <div class="numbertext">2 / 3</div>
-          <img src="./img/IMG_3860.jpg" class="slideshow-photos" style="width: 100%">
+          <img src="./img/IMG_3860.jpg" class="slideshow-photos img-responsive" style="width: 100%">
           <div class="text">Caption Text</div>
         </div>
 
         <div class="mySlides">
           <div class="numbertext">2 / 3</div>
-          <img src="./img/IMG_1296.jpg" class="slideshow-photos" style="width: 100%">
+          <img src="./img/IMG_1296.jpg" class="slideshow-photos img-responsive" style="width: 100%">
           <div class="text">Caption Text</div>
         </div>
 
